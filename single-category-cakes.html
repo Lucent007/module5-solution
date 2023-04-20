@@ -31,8 +31,8 @@
             </p>
           </div>
 
-          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#collapsable-nav" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -42,11 +42,11 @@
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs active">
+            <li class="visible-xs">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span> Home</a>
             </li>
-            <li>
+            <li class="active">
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
@@ -78,58 +78,54 @@
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
   <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
-    </div>
+    <h2 id="menu-categories-title" class="text-center">Cakes Menu</h2>
+    <div class="text-center">Cakes are served in the evening.</div>
 
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="menu-categories.html">
-          <div id="menu-tile"><span>menu</span></div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div id="specials-tile">
-          <a href="single-category-breakfast.html">
-            <span>specials</span></a>
-        </div>
-        <a href="single-category-lunch.html">
-          <div id="specials-tile2"><span>specials</span></div>
-        </a>
-        <a href="single-category-dinner.html">
-          <div id="specials-tile3"><span>specials</span></div>
-        </a>
-        <a href="single-category-soups.html">
-          <div id="specials-tile4"><span>specials</span></div>
-        </a>
-        <a href="single-category-sushi.html">
-          <div id="specials-tile5"><span>specials</span></div>
-        </a>
-        <a href="single-category-snacks.html">
-          <div id="specials-tile6"><span>specials</span></div>
-        </a>
-        <a href="single-category-cakes.html">
-          <div id="specials-tile7"><span>specials</span></div>
-        </a>
-        <a href="single-category-salad.html">
-          <div id="specials-tile8"><span>specials</span></div>
-        </a>
-        <a href="single-category-noodles.html">
-          <div id="specials-tile9"><span>specials</span></div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea"
-          target="_blank">
-          <div id="map-tile">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156"
-              width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <span>map</span>
+    <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>C01</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/DS/DS1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$1.95<span> (pint)</span> $2.95 <span>(quart)</span></div>
           </div>
-        </a>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Chocolate Cake</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse
+              minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+              voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+              provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+              totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi
+              reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
       </div>
-    </div><!-- End of #home-tiles -->
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>C02</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/DS/DS2.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$0.95<span> (pint)</span> $1.45 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Caramel Cake</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse
+              minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+              voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+    </section>
+
   </div><!-- End of #main-content -->
 
   <footer class="panel-footer">
@@ -161,7 +157,7 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <!-- <script src="js/script.js"></script> -->
+  <script src="js/script.js"></script>
 </body>
 
 </html>
